@@ -1,0 +1,56 @@
+.airline_container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.airline_items {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.airline_title{
+    font-weight: 600;
+    color: rgb(71, 149, 238);
+}
+
+.review {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.star {
+    color: rgb(218, 199, 32);
+}
+
+
+/* -------------------------------------------
+              mobile devices styles
+ ---------------------------------------------*/
+
+ @media only screen and (max-width: 576px) {
+    .airline_container {
+        display: grid;
+        grid-template-columns:  1fr;
+        padding: 10px;
+        margin-bottom: 50px;
+    }
+
+}
+
+/* -------------------------------------------
+              tablet devices styles
+ ---------------------------------------------*/
+
+@media only screen and (min-width: 576px) and (max-width: 992px) {
+    .airline_container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 20px;
+        margin-bottom: 50px;
+    }
+}
