@@ -59,7 +59,7 @@ const TravelBlog = () => {
                   />
                   <p>{blog.author}</p>
                 </div>
-                <p className="reed_btn">Read More >></p>
+                <p className="reed_btn">Read More &gt;&gt;</p>
               </div>
             </div>
           </div>
