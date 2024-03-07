@@ -9,29 +9,31 @@ import { FaStar } from "react-icons/fa6";
 const Testimonials = () => {
   return (
     <div>
-      <h1 className="section_title container">Testimonials</h1>
+      <h1 className="section_title testimonial_title">Testimonials</h1>
       <div className="testimonial_container">
-        <div className="container content">
-          <img src={testimonial1} alt="" className="opacity_image"  />
-          <div className="testimonial">
-            <img src={testimonial2} alt="" />
-            <div className="testimonial_text">
-              <p>
-                &quot;Unforgettable journeys with John and Sarah! Their travel
-                expertise turned our dreams into reality. Can&apos;t wait to
-                explore with them again!&quot;
-              </p>
-              <h4>Emily</h4>
-              <h5>Adventure Enthusiast</h5>
-              <div>
-                <FaStar className="star" />
-                <FaStar className="star" />
-                <FaStar className="star" />
-                <FaStar className="star" />
+        <div className="container">
+          <div className="content">
+            <img src={testimonial1} alt="" className="opacity_image" />
+            <div className="testimonial">
+              <img src={testimonial2} alt="" />
+              <div className="testimonial_text">
+                <p>
+                  &quot;Unforgettable journeys with John and Sarah! Their travel
+                  expertise turned our dreams into reality. Can&apos;t wait to
+                  explore with them again!&quot;
+                </p>
+                <h4>Emily</h4>
+                <h5>Adventure Enthusiast</h5>
+                <div>
+                  <FaStar className="star" />
+                  <FaStar className="star" />
+                  <FaStar className="star" />
+                  <FaStar className="star" />
+                </div>
               </div>
             </div>
+            <img src={testimonial3} alt="" className="opacity_image" />
           </div>
-          <img src={testimonial3} alt="" className="opacity_image"  />
         </div>
       </div>
     </div>

@@ -4,6 +4,10 @@
     margin-bottom: 100px;
 }
 
+.testimonial_title {
+    margin-left: 8%;
+}
+
 .content {
     display: flex;
     gap: 30px;
@@ -43,7 +47,10 @@
  ---------------------------------------------*/
 
 @media only screen and (max-width: 576px) {
-    
+    .testimonial_title {
+        margin-left: 1%;
+    }
+
     .testimonial_text {
         padding: 0 5px;
     }
@@ -63,6 +70,10 @@
  ---------------------------------------------*/
 
 @media only screen and (min-width: 576px) and (max-width: 992px) {
+    .testimonial_title {
+        margin-left: 1%;
+    }
+
     .testimonial_text {
         padding: 0 10px;
     }
