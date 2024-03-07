@@ -7,7 +7,7 @@ import img3 from "../assets/images/Offer/sliderUp_to_14__discount_on_Domestic_fl
 const DealsAndOffers = () => {
   return (
     <div className="container">
-      <h1 className="offers_title">Deals And Offers</h1>
+      <h1 className="section_title">Deals And Offers</h1>
       <div className="offers_container">
         <div className="offers_items">
           <img src={img3} alt="" />
