@@ -1,0 +1,31 @@
+.hero_container {
+    position: relative;
+    margin-bottom: 100px;
+}
+
+
+.hero_image1 {
+    width: 100%;
+}
+
+.hero_content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1200px;
+    height: 100px;
+}
+
+.hero_white{
+    background-color: white;
+    border-radius: 15px;
+}
+
+#welcome {
+    color: white;
+}
+
+#airbook {
+    color: #006CE4;
+}

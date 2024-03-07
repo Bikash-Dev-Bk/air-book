@@ -16,7 +16,7 @@ const Home = () => {
       <FeaturedDestinations></FeaturedDestinations>
       <DealsAndOffers></DealsAndOffers>
       <PopularAirlines></PopularAirlines>
-      <Testimonials></Testimonials>
+      {/* <Testimonials></Testimonials> */}
       <TravelBlog></TravelBlog>
       <Newsletter></Newsletter>
       <Footer></Footer>
