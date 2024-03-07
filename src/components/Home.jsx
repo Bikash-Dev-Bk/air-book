@@ -11,15 +11,15 @@ import TravelBlog from "./TravelBlog";
 const Home = () => {
   return (
     <div>
-      {/* <Navbar></Navbar>
+      <Navbar></Navbar>
       <Hero></Hero>
       <FeaturedDestinations></FeaturedDestinations>
       <DealsAndOffers></DealsAndOffers>
-      <PopularAirlines></PopularAirlines> */}
+      <PopularAirlines></PopularAirlines>
       <Testimonials></Testimonials>
-      {/* <TravelBlog></TravelBlog>
+      <TravelBlog></TravelBlog>
       <Newsletter></Newsletter>
-      <Footer></Footer> */}
+      <Footer></Footer>
     </div>
   );
 };
