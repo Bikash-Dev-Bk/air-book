@@ -1,0 +1,55 @@
+.nav_container {
+    background-color: white;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.nav_routes {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+}
+
+.sign_btn {
+    font-size: 16px;
+    background-color: #006CE4;
+    padding: 8px 25px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+
+/* -------------------------------------------
+              mobile devices styles
+ ---------------------------------------------*/
+
+@media only screen and (max-width: 576px) {
+    .content {
+        padding: 10px;
+    }
+    .nav_routes {
+        display: none;
+    }
+
+}
+
+/* -------------------------------------------
+              tablet devices styles
+ ---------------------------------------------*/
+
+@media only screen and (min-width: 576px) and (max-width: 992px) {
+    .content {
+        padding: 10px;
+    }
+    .nav_routes {
+        display: none;
+    }
+}

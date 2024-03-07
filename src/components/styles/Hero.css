@@ -17,7 +17,7 @@
     height: 100px;
 }
 
-.hero_white{
+.hero_white {
     background-color: white;
     border-radius: 15px;
 }
@@ -28,4 +28,27 @@
 
 #airbook {
     color: #006CE4;
+}
+
+
+
+/* -------------------------------------------
+              mobile devices styles
+ ---------------------------------------------*/
+
+@media only screen and (max-width: 576px) {
+    .hero_content {
+        width: 100%;
+    }
+
+}
+
+/* -------------------------------------------
+              tablet devices styles
+ ---------------------------------------------*/
+
+@media only screen and (min-width: 576px) and (max-width: 992px) {
+    .hero_content {
+        width: 100%;
+    }
 }
