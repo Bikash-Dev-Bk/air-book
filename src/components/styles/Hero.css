@@ -3,9 +3,14 @@
     margin-bottom: 100px;
 }
 
-
 .hero_image1 {
     width: 100%;
+}
+
+.hero_title {
+    position: absolute;
+    top: 15%;
+    left: 10%;
 }
 
 .hero_content {
@@ -14,12 +19,12 @@
     left: 50%;
     transform: translate(-50%, -50%);
     width: 1200px;
-    height: 100px;
 }
 
 .hero_white {
     background-color: white;
     border-radius: 15px;
+    padding: 50px;
 }
 
 #welcome {
@@ -30,6 +35,85 @@
     color: #006CE4;
 }
 
+.hero_info_container1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.hero_option {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.display_flex {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.round_trip {
+    padding: 8px;
+    color: white;
+    background-color: #006CE4;
+    font-size: small;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.one_way {
+    padding: 8px;
+    background-color: #EBF0F5;
+    font-size: small;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.content_style {
+    padding: 8px;
+    color: #006CE4;
+    background-color: #EBF0F5;
+    font-size: small;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.hero_info_container {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.hero_info {
+    width: 19%;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.hero_search {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFB700;
+    border-radius: 8px;
+}
+
+#hero_search {
+    color: white;
+    font-size: 35px;
+}
+
+.hero_small {
+    font-size: small;
+}
 
 
 /* -------------------------------------------
@@ -37,8 +121,13 @@
  ---------------------------------------------*/
 
 @media only screen and (max-width: 576px) {
+
     .hero_content {
-        width: 100%;
+        display: none;
+    }
+
+    .hero_title {
+        top: 15%;
     }
 
 }
@@ -48,7 +137,12 @@
  ---------------------------------------------*/
 
 @media only screen and (min-width: 576px) and (max-width: 992px) {
+
     .hero_content {
-        width: 100%;
+        display: none;
+    }
+
+    .hero_title {
+        top: 15%;
     }
 }
